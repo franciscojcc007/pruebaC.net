@@ -2,24 +2,18 @@ namespace ProyectoLasagna
 {
     public class Lasagna
     {
-                public int MinutosEsperadosEnElHorno()
+        public int MinutosEsperadosEnElHorno()
         {
             return 40;
         }
-
-        
         public int MinutosRestantesEnElHorno(int minutosActualesEnElHorno)
         {
             return MinutosEsperadosEnElHorno() - minutosActualesEnElHorno;
         }
-
-    
         public int TiempoDePreparacionEnMinutos(int numeroDeCapas)
         {
             return numeroDeCapas * 2;
         }
-
-        
         public int TiempoTranscurridoEnMinutos(int numeroDeCapas, int minutosActualesEnElHorno)
         {
             int tiempoDePreparacion = TiempoDePreparacionEnMinutos(numeroDeCapas);
