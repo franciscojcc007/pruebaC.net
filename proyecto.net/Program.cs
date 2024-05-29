@@ -2,7 +2,7 @@
 // {
 //     public static void Main(string[] args)
 //     {
-//         Console.WriteLine("hola mama buevo");
+//         Console.WriteLine("hola pendejo");
 //     }
 // }
 
